@@ -10,4 +10,5 @@ pod 'AFNetworking', '~> 3.1.0'
 pod 'Masonry', '~> 1.1.0'
 pod 'SDWebImage', '~> 4.2.2'
 pod 'MJRefresh', '~> 3.1.15.1'
+pod 'MagicalRecord', '~> 2.3.2'
 end

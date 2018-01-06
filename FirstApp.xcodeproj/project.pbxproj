@@ -13,7 +13,7 @@
 		606395CE1FFB59AF00AC2243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606395CD1FFB59AF00AC2243 /* Assets.xcassets */; };
 		606395D11FFB59AF00AC2243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606395CF1FFB59AF00AC2243 /* LaunchScreen.storyboard */; };
 		606395D41FFB59AF00AC2243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 606395D31FFB59AF00AC2243 /* main.m */; };
-		60DE434C1FFE9CC30064C2A6 /* FirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60DE434A1FFE9CC30064C2A6 /* FirstApp.xcdatamodeld */; };
+		60E7208C2000C3F300173C23 /* FirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60E7208A2000C3F300173C23 /* FirstApp.xcdatamodeld */; };
 		60FD06591FFB608F0063132D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD06581FFB608F0063132D /* LoginViewController.m */; };
 		60FD065C1FFB60B30063132D /* RegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD065B1FFB60B30063132D /* RegisteViewController.m */; };
 		F1EC72A9BCE71B3EF39F596E /* libPods-FirstApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDB7547DB4768CE75ABCB58 /* libPods-FirstApp.a */; };
@@ -32,7 +32,7 @@
 		606395D01FFB59AF00AC2243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		606395D21FFB59AF00AC2243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		606395D31FFB59AF00AC2243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		60DE434B1FFE9CC30064C2A6 /* User.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User.xcdatamodel; sourceTree = "<group>"; };
+		60E7208B2000C3F300173C23 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		60FD06571FFB608F0063132D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		60FD06581FFB608F0063132D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		60FD065A1FFB60B30063132D /* RegisteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisteViewController.h; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 				60FD06581FFB608F0063132D /* LoginViewController.m */,
 				60FD065A1FFB60B30063132D /* RegisteViewController.h */,
 				60FD065B1FFB60B30063132D /* RegisteViewController.m */,
-				60DE434A1FFE9CC30064C2A6 /* FirstApp.xcdatamodeld */,
+				60E7208A2000C3F300173C23 /* FirstApp.xcdatamodeld */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -238,12 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60DE434C1FFE9CC30064C2A6 /* FirstApp.xcdatamodeld in Sources */,
 				60FD06591FFB608F0063132D /* LoginViewController.m in Sources */,
 				60FD065C1FFB60B30063132D /* RegisteViewController.m in Sources */,
 				606395C91FFB59AF00AC2243 /* ViewController.m in Sources */,
 				606395D41FFB59AF00AC2243 /* main.m in Sources */,
 				606395C61FFB59AF00AC2243 /* AppDelegate.m in Sources */,
+				60E7208C2000C3F300173C23 /* FirstApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,13 +431,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		60DE434A1FFE9CC30064C2A6 /* FirstApp.xcdatamodeld */ = {
+		60E7208A2000C3F300173C23 /* FirstApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				60DE434B1FFE9CC30064C2A6 /* User.xcdatamodel */,
+				60E7208B2000C3F300173C23 /* Model.xcdatamodel */,
 			);
-			currentVersion = 60DE434B1FFE9CC30064C2A6 /* User.xcdatamodel */;
-			path = FirstApp.xcdatamodeld;
+			currentVersion = 60E7208B2000C3F300173C23 /* Model.xcdatamodel */;
+			name = FirstApp.xcdatamodeld;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
