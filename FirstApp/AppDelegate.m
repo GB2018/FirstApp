@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "NowUser+CoreDataClass.h"
 #import "LoginViewController.h"
-#import "ViewController.h"
+#import "MytabbarController.h"
 @interface AppDelegate ()
 
 @end
@@ -22,7 +22,7 @@
     //windowsConfig
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    ViewController *rootVC = [[ViewController alloc]init];
+    MytabbarController *rootVC = [[MytabbarController alloc]init];
     
     self.window.rootViewController = rootVC;
     

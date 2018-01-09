@@ -178,6 +178,8 @@
 - (void)clickLoginBtn
 {
     NSLog(@"登录");
+    [self dismissViewControllerAnimated:YES completion:nil];
+
     User *loginUser = [User MR_findFirstByAttribute:@"acount" withValue:self.userTF.text];
     if (loginUser) {
         

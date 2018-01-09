@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6013486520048A9D00EC1FA8 /* MytabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6013486420048A9D00EC1FA8 /* MytabbarController.m */; };
+		6013486820048AB100EC1FA8 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6013486720048AB100EC1FA8 /* MeViewController.m */; };
 		606395C61FFB59AF00AC2243 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 606395C51FFB59AF00AC2243 /* AppDelegate.m */; };
 		606395C91FFB59AF00AC2243 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606395C81FFB59AF00AC2243 /* ViewController.m */; };
 		606395CC1FFB59AF00AC2243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606395CA1FFB59AF00AC2243 /* Main.storyboard */; };
@@ -22,6 +24,10 @@
 /* Begin PBXFileReference section */
 		3EDB7547DB4768CE75ABCB58 /* libPods-FirstApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E932C261C7DFBB79B147A66 /* Pods-FirstApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstApp/Pods-FirstApp.release.xcconfig"; sourceTree = "<group>"; };
+		6013486320048A9D00EC1FA8 /* MytabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MytabbarController.h; sourceTree = "<group>"; };
+		6013486420048A9D00EC1FA8 /* MytabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MytabbarController.m; sourceTree = "<group>"; };
+		6013486620048AB100EC1FA8 /* MeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		6013486720048AB100EC1FA8 /* MeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		606395C11FFB59AF00AC2243 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		606395C41FFB59AF00AC2243 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		606395C51FFB59AF00AC2243 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -97,6 +103,10 @@
 				60FD065A1FFB60B30063132D /* RegisteViewController.h */,
 				60FD065B1FFB60B30063132D /* RegisteViewController.m */,
 				60E7208A2000C3F300173C23 /* FirstApp.xcdatamodeld */,
+				6013486320048A9D00EC1FA8 /* MytabbarController.h */,
+				6013486420048A9D00EC1FA8 /* MytabbarController.m */,
+				6013486620048AB100EC1FA8 /* MeViewController.h */,
+				6013486720048AB100EC1FA8 /* MeViewController.m */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -239,10 +249,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				60FD06591FFB608F0063132D /* LoginViewController.m in Sources */,
+				6013486520048A9D00EC1FA8 /* MytabbarController.m in Sources */,
 				60FD065C1FFB60B30063132D /* RegisteViewController.m in Sources */,
 				606395C91FFB59AF00AC2243 /* ViewController.m in Sources */,
 				606395D41FFB59AF00AC2243 /* main.m in Sources */,
 				606395C61FFB59AF00AC2243 /* AppDelegate.m in Sources */,
+				6013486820048AB100EC1FA8 /* MeViewController.m in Sources */,
 				60E7208C2000C3F300173C23 /* FirstApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

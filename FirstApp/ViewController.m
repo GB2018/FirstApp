@@ -20,9 +20,13 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    NSLog(@"%f",self.view.frame.size.height);
     
     UIButton *pushLoginViewControllerButton = [[UIButton alloc]init];
     
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    NSLog(@"%f",self.view.frame.size.height);
     [self.view addSubview:pushLoginViewControllerButton];
     
     [pushLoginViewControllerButton mas_makeConstraints:^(MASConstraintMaker *make) {
