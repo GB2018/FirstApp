@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RegisteViewController : UIViewController
-
+@property Boolean showLoginBackBtn;
 @end

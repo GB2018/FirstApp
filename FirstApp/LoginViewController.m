@@ -211,7 +211,7 @@
 {
     NSLog(@"注册");
     RegisteViewController *registeVC = [[RegisteViewController alloc]init];
-    
+    registeVC.showLoginBackBtn = YES;
     [self presentViewController:registeVC animated:YES completion:nil];
 }
 
