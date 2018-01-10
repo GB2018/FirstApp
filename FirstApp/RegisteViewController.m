@@ -152,12 +152,12 @@
     [quitBtn setBackgroundColor:[UIColor greenColor]];
     [quitBtn addTarget:self action:@selector(clickQuitBtn) forControlEvents:UIControlEventTouchUpInside];
     
-    
 }
 
 - (void)clickRegisteBtn{
     
     NSLog(@"注册");
+    
 }
 
 - (void)clickQuitBtn{
