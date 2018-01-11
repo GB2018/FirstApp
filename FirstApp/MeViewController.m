@@ -7,7 +7,7 @@
 //
 
 #import "MeViewController.h"
-
+#import "MyOneTableViewCell.h"
 @interface MeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property UITableView *tableView;
 @end
@@ -33,6 +33,8 @@
     self.tableView.backgroundColor = [UIColor greenColor];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    [self.tableView registerClass:[MyOneTableViewCell class] forCellReuseIdentifier:@"one"];
+    self.tableView.rowHeight = 60;
     
     
 }
@@ -44,12 +46,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
-    }
-    
+    MyOneTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"one"];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    [cell updateLayout];
+    cell.backgroundColor = [UIColor grayColor];
     return cell;
     
 }

@@ -15,6 +15,8 @@
 		606395CE1FFB59AF00AC2243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606395CD1FFB59AF00AC2243 /* Assets.xcassets */; };
 		606395D11FFB59AF00AC2243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 606395CF1FFB59AF00AC2243 /* LaunchScreen.storyboard */; };
 		606395D41FFB59AF00AC2243 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 606395D31FFB59AF00AC2243 /* main.m */; };
+		60BF7E522006FCCF00A83915 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60BF7E512006FCCF00A83915 /* 1.jpg */; };
+		60BF7E552006FFE800A83915 /* MyOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BF7E542006FFE800A83915 /* MyOneTableViewCell.m */; };
 		60E7208C2000C3F300173C23 /* FirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60E7208A2000C3F300173C23 /* FirstApp.xcdatamodeld */; };
 		60FD06591FFB608F0063132D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD06581FFB608F0063132D /* LoginViewController.m */; };
 		60FD065C1FFB60B30063132D /* RegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD065B1FFB60B30063132D /* RegisteViewController.m */; };
@@ -38,6 +40,9 @@
 		606395D01FFB59AF00AC2243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		606395D21FFB59AF00AC2243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		606395D31FFB59AF00AC2243 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60BF7E512006FCCF00A83915 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		60BF7E532006FFE800A83915 /* MyOneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOneTableViewCell.h; sourceTree = "<group>"; };
+		60BF7E542006FFE800A83915 /* MyOneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOneTableViewCell.m; sourceTree = "<group>"; };
 		60E7208B2000C3F300173C23 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		60FD06571FFB608F0063132D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		60FD06581FFB608F0063132D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -107,6 +112,9 @@
 				6013486420048A9D00EC1FA8 /* MytabbarController.m */,
 				6013486620048AB100EC1FA8 /* MeViewController.h */,
 				6013486720048AB100EC1FA8 /* MeViewController.m */,
+				60BF7E512006FCCF00A83915 /* 1.jpg */,
+				60BF7E532006FFE800A83915 /* MyOneTableViewCell.h */,
+				60BF7E542006FFE800A83915 /* MyOneTableViewCell.m */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -182,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				606395D11FFB59AF00AC2243 /* LaunchScreen.storyboard in Resources */,
+				60BF7E522006FCCF00A83915 /* 1.jpg in Resources */,
 				606395CE1FFB59AF00AC2243 /* Assets.xcassets in Resources */,
 				606395CC1FFB59AF00AC2243 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +259,7 @@
 			files = (
 				60FD06591FFB608F0063132D /* LoginViewController.m in Sources */,
 				6013486520048A9D00EC1FA8 /* MytabbarController.m in Sources */,
+				60BF7E552006FFE800A83915 /* MyOneTableViewCell.m in Sources */,
 				60FD065C1FFB60B30063132D /* RegisteViewController.m in Sources */,
 				606395C91FFB59AF00AC2243 /* ViewController.m in Sources */,
 				606395D41FFB59AF00AC2243 /* main.m in Sources */,
