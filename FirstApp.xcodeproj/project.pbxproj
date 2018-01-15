@@ -18,6 +18,8 @@
 		60BF7E522006FCCF00A83915 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60BF7E512006FCCF00A83915 /* 1.jpg */; };
 		60BF7E552006FFE800A83915 /* MyOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BF7E542006FFE800A83915 /* MyOneTableViewCell.m */; };
 		60E7208C2000C3F300173C23 /* FirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60E7208A2000C3F300173C23 /* FirstApp.xcdatamodeld */; };
+		60F060DC200A046900CB9152 /* MyTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F060DB200A046900CB9152 /* MyTwoTableViewCell.m */; };
+		60F9333B200C7B52009074A6 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F9333A200C7B52009074A6 /* PushViewController.m */; };
 		60FD06591FFB608F0063132D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD06581FFB608F0063132D /* LoginViewController.m */; };
 		60FD065C1FFB60B30063132D /* RegisteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FD065B1FFB60B30063132D /* RegisteViewController.m */; };
 		F1EC72A9BCE71B3EF39F596E /* libPods-FirstApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDB7547DB4768CE75ABCB58 /* libPods-FirstApp.a */; };
@@ -44,6 +46,10 @@
 		60BF7E532006FFE800A83915 /* MyOneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOneTableViewCell.h; sourceTree = "<group>"; };
 		60BF7E542006FFE800A83915 /* MyOneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOneTableViewCell.m; sourceTree = "<group>"; };
 		60E7208B2000C3F300173C23 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		60F060DA200A046900CB9152 /* MyTwoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTwoTableViewCell.h; sourceTree = "<group>"; };
+		60F060DB200A046900CB9152 /* MyTwoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTwoTableViewCell.m; sourceTree = "<group>"; };
+		60F93339200C7B52009074A6 /* PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		60F9333A200C7B52009074A6 /* PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 		60FD06571FFB608F0063132D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		60FD06581FFB608F0063132D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		60FD065A1FFB60B30063132D /* RegisteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisteViewController.h; sourceTree = "<group>"; };
@@ -115,6 +121,10 @@
 				60BF7E512006FCCF00A83915 /* 1.jpg */,
 				60BF7E532006FFE800A83915 /* MyOneTableViewCell.h */,
 				60BF7E542006FFE800A83915 /* MyOneTableViewCell.m */,
+				60F060DA200A046900CB9152 /* MyTwoTableViewCell.h */,
+				60F060DB200A046900CB9152 /* MyTwoTableViewCell.m */,
+				60F93339200C7B52009074A6 /* PushViewController.h */,
+				60F9333A200C7B52009074A6 /* PushViewController.m */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -258,9 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				60FD06591FFB608F0063132D /* LoginViewController.m in Sources */,
+				60F9333B200C7B52009074A6 /* PushViewController.m in Sources */,
 				6013486520048A9D00EC1FA8 /* MytabbarController.m in Sources */,
 				60BF7E552006FFE800A83915 /* MyOneTableViewCell.m in Sources */,
 				60FD065C1FFB60B30063132D /* RegisteViewController.m in Sources */,
+				60F060DC200A046900CB9152 /* MyTwoTableViewCell.m in Sources */,
 				606395C91FFB59AF00AC2243 /* ViewController.m in Sources */,
 				606395D41FFB59AF00AC2243 /* main.m in Sources */,
 				606395C61FFB59AF00AC2243 /* AppDelegate.m in Sources */,

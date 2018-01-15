@@ -25,19 +25,19 @@
         
         [self.contentView addSubview:self.iconImageView];
         
-        self.iconImageView.backgroundColor = [UIColor blackColor];
+        //self.iconImageView.backgroundColor = [UIColor blackColor];
         
         self.topticLabel = [[UILabel alloc]init];
         
         [self.contentView addSubview:self.topticLabel];
         
-        self.topticLabel.backgroundColor = [UIColor yellowColor];
+        //self.topticLabel.backgroundColor = [UIColor yellowColor];
         
         self.contentLabel = [[UILabel alloc]init];
         
         [self.contentView addSubview: self.contentLabel];
         
-        self.contentView.backgroundColor = [UIColor greenColor];
+        //self.contentView.backgroundColor = [UIColor greenColor];
         
         
         
@@ -65,23 +65,30 @@
     [self.iconImageView mas_updateConstraints:^(MASConstraintMaker *make) {
         make.left.equalTo(self).offset(10);
         make.top.equalTo(self).offset(10);
-        make.height.mas_equalTo(40);
-        make.width.mas_equalTo(40);
+        make.height.mas_equalTo(60);
+        make.width.mas_equalTo(60);
     }];
+    
+    self.iconImageView.image = [UIImage imageNamed:@"1.jpg"];
     
     [self.topticLabel mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.iconImageView.mas_top);
+        make.top.equalTo(self.iconImageView.mas_top).offset(10);
         make.left.equalTo(self.iconImageView.mas_right).offset(10);
         make.height.mas_equalTo(20);
         make.right.equalTo(self).offset(-10);
     }];
     
-    [self.contentView mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(self.iconImageView.mas_bottom);
+    self.topticLabel.text = @"用户名";
+    
+    [self.contentLabel mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.bottom.equalTo(self.iconImageView.mas_bottom).offset(-5);
         make.left.equalTo(self.iconImageView.mas_right).offset(10);
         make.height.mas_equalTo(20);
         make.right.equalTo(self).offset(-10);
     }];
+    
+    self.contentLabel.text = @"微信号：22458147";
+    self.contentLabel.textColor = [UIColor lightGrayColor];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
